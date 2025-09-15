@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <title>Shannon Ho - Information & Data Analyst</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="header-content"> 
+      <div class="name-title"> 
+        <h1>Shannon Ho</h1>
+        <h2>Information & Data Analyst</h2>
+      </div>
+      <nav>
+        <ul class="nav-menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Me</a></li>
+          <li><a class = "active" href="projects.html">Projects</a></li>
+          <li><a href="resume.html">Resume</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="projects">
+    <div class="content-container">
+      <h2>My Projects</h2>
+      <p>Below is a collection of my data analysis and machine learning projects. 
+      Each one demonstrates my ability to translate raw data into actionable insights and solutions.</p>
+
+  <!-- superstore analysis -->
+
+      <div class="project" id="sales-analysis">
+        <h3>Superstore Sales Analysis: Looking into a Profit Crisis</h3>
+        <span class="project-badge individual-badge">Individual Project</span>
+        <p>Analyze the Superstore dataset to find key business insights and translate 
+          them into actionable recommendations, backed by data analysis and supported by 
+          an interactive dashboard.</p>
+
+        <p><strong>Skills: </strong></p>
+          <div class="skills-badges">
+            <span class="skill-badge">SQL</span>
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">Pandas</span>
+            <span class="skill-badge">Tableau</span>
+            <span class="skill-badge">Business Analysis</span>
+            <span class="skill-badge">Data Storytelling</span>
+          </div>
+
+        <p><strong>Findings: </strong>Uncovered that the Tables product line was operating at a -8.4% 
+          profit margin, costing the company over $64,000 annually. The root cause was identified as 
+          excessive discounting (~50%) in specific markets (EU South, APAC Southeast Asia).</p>
+
+        <div class="project-links">
+          <a href="https://public.tableau.com/views/TheTableTrapHowExcessiveDiscountingErodesProfit/TheTableTrapHowExcessiveDiscountingErodesProfit?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link" target="_blank">View Dashboard</a>
+          <a href="https://github.com/ho-shannon/superstore-profit-analysis" target="_blank">View Code on Github</a>
+        </div>   
+      </div>
+
+  <!-- fraud ml analysis -->
+
+      <div class="project" id="fraud-analysis">
+        <h3>Identifying Fraudulent Transactions using Machine Learning</h3>
+        <span class="project-badge individual-badge">Individual Project</span>
+        <p>Analyze transaction data to identify the most effective machine learning model for accurately 
+          detecting fraudulent transactions while minimizing false positives.</p>
+
+        <p><strong>Skills: </strong></p>
+          <div class="skills-badges">
+            <span class="skill-badge">Machine Learning</span>
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">Scikit-Learn</span>
+            <span class="skill-badge">SVM</span>
+            <span class="skill-badge">KNN</span>
+            <span class="skill-badge">Model Evaluation</span>
+            <span class="skill-badge">Fraud Analysis</span>
+          </div>
+
+        <p><strong>Findings: </strong>After comparing various models, the SVM model was the most effective, 
+          correctly identifying 97% of fraudulent cases while minimizing false positives. This is critical for
+          fraud detection, as it prevents unnecessary customer transaction declines while stopping fraudulent activity.</p>
+
+        <div class="project-links">
+          <a href="https://github.com/ho-shannon/fraud-detection-ml-model-comparison" target="_blank">View Code on Github</a>
+        </div>        
+      </div>
+
+  <!-- image classifcation analysis -->
+
+      <div class="project" id="image-classification">
+        <h3>Comparative Analysis of CNN & SVM for Image Classification</h3>
+        <span class="project-badge individual-badge">Individual Project</span>
+        <p>Compare convolutional neural networks (CNN) and support vector machines (SVM) for accurate traffic light 
+          classification to ensure safety in autonomous driving systems.</p>
+
+        <p><strong>Skills: </strong></p>
+          <div class="skills-badges">
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">TensorFlow</span>
+            <span class="skill-badge">Keras</span>
+            <span class="skill-badge">CNN</span>
+            <span class="skill-badge">SVM</span>
+            <span class="skill-badge">Computer Vision</span>
+            <span class="skill-badge">Model Evaluation</span>
+          </div>
+        
+        <p><strong>Findings: </strong>Model evaluation against strict safety criteria showed the SVM model was the optimal 
+          solution. It achieved zero misclassifications for red lights, the requirement, while maintaining 99%+ accuracy on 
+          all other signals.</p>
+
+        <div class="project-links">
+          <a href="https://github.com/ho-shannon/traffic-light-image-classification-cnn-svm" target="_blank">View Code on Github</a>
+        </div>
+      </div>
+      
+  <!-- boulder crime analysis -->
+
+      <div class="project" id="boulder-crime">
+        <h3>Analyzing Seasonal Crime Trends in Boulder</h3>
+        <span class="project-badge individual-badge">Individual Project</span>
+        <p>Explored Boulder public crime data to identify temporal patterns, verify public reports of rising crime, 
+          and uncover seasonal trends to inform better public safety strategies.</p>
+
+        <p><strong>Skills: </strong></p>
+          <div class="skills-badges">
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">Pandas</span>
+            <span class="skill-badge">Matplotlib</span>
+            <span class="skill-badge">Seaborn</span>
+            <span class="skill-badge">Data Visualization</span>
+            <span class="skill-badge">Time Series Analysis</span>
+          </div>
+        
+        <p><strong>Findings: </strong>Uncovered a consistent seasonal peak in crime during August, strongly correlated 
+          with higher temperatures and the annual influx of students, providing data-driven insights for proactive 
+          public safety planning.</p>
+
+        <div class="project-links">
+          <a href="https://medium.com/information-expositions-fall-2023/exploring-boulder-crime-over-four-years-968022291811" target="_blank">Read Case Study</a>
+          <a href="https://github.com/ho-shannon/boulder-crime-analysis" target="_blank">View Code on Github</a>
+        </div>
+      </div>
+
+  <!-- philly shootings analysis -->
+
+      <div class="project" id="philly-shootings">
+        <h3>Philadelphia Shootings Dashboard: Enhancing Visual Cohesion</h3>
+        <span class="project-badge individual-badge">Individual Project</span>
+        <p>A comprehensive redesign of a public safety dashboard to improve visual cohesion and storytelling through 
+          spatial analysis and consistent visual design</p>
+
+        <p><strong>Skills: </strong></p>
+          <div class="skills-badges">
+            <span class="skill-badge">Python</span>
+            <span class="skill-badge">Altair</span>
+            <span class="skill-badge">GeoPandas</span>
+            <span class="skill-badge">Spatial Analysis</span>
+            <span class="skill-badge">Dashboard Design</span>
+            <span class="skill-badge">Data Storytelling</span>
+          </div>
+
+        <p><strong>Findings: </strong>Redesigned dashboard revealed a 200% increase in shootings (2017-2021) and clear 
+          spatial correlations between neighborhood demographics and shooting incidents.</p>
+
+        <div class="project-links">
+          <a href="https://medium.com/@shho8487/redesigning-looking-at-philadelphia-demographics-and-shootings-data-834dd7e2bd5a" target="_blank">Read Case Study</a>
+          <a href="https://colab.research.google.com/drive/1MZpa4Uy8s3HQlZ-eSwsFhy378r6_BOdt?usp=sharing" target="_blank">Run in Colab</a>
+          <a href="https://github.com/ho-shannon/philadelphia-shootings-dashboard/" target="_blank">View Code on Github</a>
+        </div>
+      </div>
+
+  <!-- hurricane research -->
+
+      <div class="project" id="hurricane-research">
+        <h3>Hurricane Evacuation: Collaborative Research Analysis</h3>
+        <span class="project-badge group-badge">Group Project</span>
+        <p><strong>My Role: </strong>Research Analyst & Framework Specialist</strong></p>
+        <p>A collaborative analysis of hurricane evacuation research where I applied a micro-meso-macro 
+          framework to synthesize insights from key literature and contribute to group findings.</p>
+          
+        <p><strong>My Contributions: </strong></p>
+        <ul>
+          <li>Applied analytical framework to categorize and synthesize research findings</li>
+          <li>Identified connections between individual, community, and systemic factors in evacuation decisions</li>
+          <li>Collaborated on Miro board to visualize research relationships and insights</li>
+          <li>Contributed to group analysis on equity in disaster response</li>
+        </ul>
+          
+        <p><strong>Skills: </strong></p>
+        <div class="skills-badges">
+          <span class="skill-badge">Research Analysis</span>
+          <span class="skill-badge">Data Journeys</span>
+          <span class="skill-badge">Miro</span>
+          <span class="skill-badge">Systems Thinking</span>
+          <span class="skill-badge">Team Contribution</span>
+        </div>
+
+        <p><strong>Findings: </strong>Disaster response failures are driven by lost insurance documentation during 
+          evacuation, inaccurate storm predictions causing misaligned evacuation plans, the lack of a unified 
+          national recovery system delaying federal aid, and power outages that disrupt rescue communications.</p>       
+
+        <div class="project-links">
+          <a href="https://drive.google.com/file/d/1aPW2IP27L6vlrYmAiPxbRRkjo1W8K-x0/view?usp=sharing" target="_blank">View Presentation</a>
+          <a href="https://miro.com/app/board/uXjVPQygCFM=/" target="_blank">Explore Miro Board</a>
+        </div> 
+      </div>
+
+  <!-- humane society research -->
+
+      <div class="project" id="humane-society-research">
+        <h3>Boulder Humane Society: Primary Research & Systems Analysis</h3>
+        <span class="project-badge group-badge">Group Project</span>
+        <p><strong>My Role: </strong>Primary Researcher & Systems Analyst</strong></p>
+        <p>Original research investigating technology infrastructure and operational workflows through stakeholder 
+        interviews and systems analysis.</p>
+          
+        <p><strong>My Contributions: </strong></p>
+        <ul>
+          <li>Conducted primary interview with Behavior & Health Department Manager</li>
+          <li>Analyzed PetPoint software ecosystem and integration challenges</li>
+          <li>Performed content analysis of the organization's website and communication channels</li>
+          <li>Created detailed data journeys and process maps in Miro</li>
+          <li>Identified operational and technology challenges</li>
+        </ul>
+          
+        <p><strong>Skills: </strong></p>
+        <div class="skills-badges">
+          <span class="skill-badge">Stakeholder Interviews</span>
+          <span class="skill-badge">Primary Research</span>
+          <span class="skill-badge">Data Journeys</span>
+          <span class="skill-badge">Miro</span>
+          <span class="skill-badge">Process Mapping</span>
+          <span class="skill-badge">Content Analysis</span>
+        </div>
+          
+        <p><strong>Findings: </strong>There are critical software integration challenges and communication gaps 
+        affecting operational efficiency in animal welfare services.</p>
+          
+        <div class="project-links">
+          <a href="https://drive.google.com/file/d/1nqGoIdp427zXsvHEPJ3cq7opUb-68vq-/view?usp=sharing" target="_blank">View Presentation</a>
+          <a href="https://miro.com/app/board/uXjVPDEHvOI=/" target="_blank">Explore Miro Board</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
